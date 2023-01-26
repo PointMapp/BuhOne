@@ -1,0 +1,205 @@
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: lato;
+    font-style: $font;
+    font-size:16px;
+    line-height:1.2;
+    font-weight: $font;
+    color: #EBEBEB;
+  
+ }
+
+.wrapper{
+    max-width: $max;     
+    margin: $mar;
+    height: $height;
+}
+
+
+.header_test{
+    position: relative;
+    max-width: $max-wi;     
+    margin: $mar;
+    height: $height;
+}
+
+
+.header_logo_1{
+    padding-top:$pad-top;
+}
+
+.header_logo_2{
+    padding-left: 30px;
+    padding-top: $pad-top;
+    
+}
+
+.header_info{
+    display: $dis;
+    flex-wrap: $flex;
+    justify-content: $just-end; 
+    position: absolute;
+    top:22px;
+    left: 465px;
+}
+
+.header_contact{
+    margin-right: 72px;
+    font-size: 13px;
+    line-height: 17px;
+    color: black;
+    
+    &:last-child{
+    margin-right: 0;
+    }
+}
+
+
+
+
+.header_wrapper{
+   padding-bottom: 122px;
+}
+
+.header_menu_nav{
+    display: $dis;
+    flex-wrap: $flex;
+    justify-content: $just-end;  
+
+}
+
+.header_item{
+    margin-right: 68px;
+    
+    &:last-child{
+    margin-right: 0;
+    }
+    
+    &_link{
+    font-family: Lato;
+    font-style: $font;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    }
+
+}
+
+
+
+
+
+.reviews{
+    font-weight: $font-weight;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+    padding-top: 140px;
+}
+
+.thanks{
+    font-weight: $font-weight;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+    padding-top: $pad-top;
+    padding-bottom: 80px;
+}
+
+.container{
+    width: 1110px;
+    height: 320px;
+    background: #EBEBEB;
+    position:relative;
+
+}
+
+.size_sec{
+    max-width: $max-wi;
+    margin: $mar;
+}
+
+.text_info{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    padding-top:45px;
+    padding-left:$pad;
+}
+
+.avat{
+    padding-top: 58px;
+    padding-left: $pad;
+}
+
+.girls_name{
+    font-weight: $font-weight;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    padding-left: $pad-left;
+    position: absolute;
+    top: 212px;
+
+}
+
+.girls_job{
+    font-size: $size;
+    line-height: $line;
+    color: #4F4F4F;;
+    padding-left:$pad-left;
+    position: absolute;
+    top: 240px;
+}
+
+
+.scroll2{
+   padding-top: $pad-top;  
+}
+
+
+.buttons2{
+    display: $dis;
+    flex-wrap: $flex;
+    justify-content: $just-bet;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+
+.footer{
+    display: $dis;
+    flex-wrap: $flex;
+    justify-content: $just-bet;
+    align-items: center;
+    max-width: $max-wi;
+    margin: $mar;
+    height: $height;
+}
+
+.rules{
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+
+.creator{
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+
