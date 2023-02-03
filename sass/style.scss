@@ -8,11 +8,10 @@ html{
 }
 
 body{
-    font-family: lato;
-    font-style: $font;
+    font-style: normal;
     font-size:16px;
     line-height:1.2;
-    font-weight: $font;
+    font-weight: normal;
     color: #EBEBEB;
   
  }
@@ -30,7 +29,6 @@ body{
     margin: $mar;
     height: $height;
 }
-
 
 .header_logo_1{
     padding-top:$pad-top;
@@ -62,9 +60,6 @@ body{
     }
 }
 
-
-
-
 .header_wrapper{
    padding-bottom: 122px;
 }
@@ -95,10 +90,6 @@ body{
     }
 
 }
-
-
-
-
 
 .reviews{
     font-weight: $font-weight;
@@ -169,16 +160,6 @@ body{
    padding-top: $pad-top;  
 }
 
-
-.buttons2{
-    display: $dis;
-    flex-wrap: $flex;
-    justify-content: $just-bet;
-    padding-top: 50px;
-    padding-bottom: 140px;
-}
-
-
 .footer{
     display: $dis;
     flex-wrap: $flex;
@@ -202,4 +183,3 @@ body{
     line-height: $line;
     color: $color;
 }
-
